@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/react-cicd-demo",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
