@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: cimg/node:16.13.2
+    working_directory: ~/my-project
     steps:
       - checkout
       - run:
@@ -29,6 +30,7 @@ jobs:
   test:
     docker:
       - image: cimg/node:16.13.2
+    working_directory: /tmp/my-project
     steps:
       - checkout
       - run:
