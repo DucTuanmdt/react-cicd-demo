@@ -30,7 +30,7 @@ jobs:
   test:
     docker:
       - image: cimg/node:16.13.2
-    working_directory: /tmp/my-project
+    working_directory: ~/my-project
     steps:
       - run:
           name: Test React App
