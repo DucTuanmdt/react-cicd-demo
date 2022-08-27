@@ -32,7 +32,6 @@ jobs:
       - image: cimg/node:16.13.2
     working_directory: /tmp/my-project
     steps:
-      - checkout
       - run:
           name: Test React App
           command: npm run test
