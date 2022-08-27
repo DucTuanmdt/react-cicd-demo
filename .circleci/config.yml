@@ -19,6 +19,9 @@ jobs:
           paths:
             - ./node_modules
       - run:
+          name: Test React App
+          command: npm run test
+      - run:
           name: Build React App
           command: npm run build
       - save_cache:
