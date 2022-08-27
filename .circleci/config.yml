@@ -26,7 +26,7 @@ jobs:
       - run:
           name: "Deploy app to Firebase Hosting"
           command: "./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN"
-test:
+  test:
     docker:
       - image: cimg/node:16.13.2
     steps:
